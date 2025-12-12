@@ -8,6 +8,7 @@ const route = useRoute()
 const links = [
   { label: 'Home', to: '/' },
   { label: 'Upload', to: '/upload' },
+  { label: 'Download', to: '/cots' },
   { label: 'Verify', to: '/verify' },
   { label: 'History', to: '/history' },
   { label: 'About', to: '/about' },
@@ -87,5 +88,6 @@ watch(
     </div>
   </header>
 </template>
+
 
 

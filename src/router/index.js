@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'about',
       component: () => import('@/views/AboutView.vue'),
     },
+    {
+      path: '/cots',
+      name: 'cots',
+      component: () => import('@/views/CotsView.vue'),
+    },
   ],
   scrollBehavior() {
     return { top: 0 }
@@ -35,5 +40,6 @@ const router = createRouter({
 })
 
 export default router
+
 
 

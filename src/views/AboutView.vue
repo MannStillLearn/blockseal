@@ -11,3 +11,4 @@ import AboutTeam from '@/components/about/AboutTeam.vue'
 </template>
 
 
+

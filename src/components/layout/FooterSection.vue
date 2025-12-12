@@ -20,6 +20,7 @@ const currentYear = new Date().getFullYear()
           <ul class="space-y-2">
             <li><RouterLink to="/" class="hover:text-white">Home</RouterLink></li>
             <li><RouterLink to="/upload" class="hover:text-white">Upload</RouterLink></li>
+            <li><RouterLink to="/cots" class="hover:text-white">Cots</RouterLink></li>
             <li><RouterLink to="/verify" class="hover:text-white">Verify</RouterLink></li>
             <li><RouterLink to="/history" class="hover:text-white">History</RouterLink></li>
           </ul>

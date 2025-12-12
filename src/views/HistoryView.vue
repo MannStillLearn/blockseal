@@ -9,3 +9,4 @@ import HistoryList from '@/components/history/HistoryList.vue'
 </template>
 
 
+

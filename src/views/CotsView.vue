@@ -1,12 +1,10 @@
 <script setup>
-import UploadForm from '@/components/upload/UploadForm.vue'
+import CotsForm from '@/components/download/CotsForm.vue'
 </script>
 
 <template>
   <div class="space-y-10">
-    <UploadForm />
+    <CotsForm />
   </div>
 </template>
-
-
 
