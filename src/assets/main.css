@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-dark text-slate-100 antialiased;
+  }
+}
+
+@layer components {
+  .page-padding {
+    @apply px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto;
+  }
+
+  .glass-panel {
+    @apply bg-slate-900/70 border border-white/10 rounded-3xl shadow-glow backdrop-blur;
+  }
+}
+
+
